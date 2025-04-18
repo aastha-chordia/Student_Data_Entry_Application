@@ -36,4 +36,7 @@ public class Main {
                     case 3:
                         searchStudent(scanner, manager);
                         break;
-                   
+                    case 4:
+                        updateStudent(scanner, manager);
+                        break;
+                    
