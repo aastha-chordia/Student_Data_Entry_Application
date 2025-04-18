@@ -18,3 +18,8 @@ public class Student {
     
     public String getPrn() { return prn; }
     public void setPrn(String prn) { this.prn = prn; }
+    
+    public String toString() {
+        return "Name: " + name + ", Age: " + age + ", PRN: " + prn;
+    }
+}
