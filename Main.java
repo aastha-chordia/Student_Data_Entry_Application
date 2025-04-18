@@ -30,4 +30,7 @@ public class Main {
                    case 1:
                         addStudent(scanner, manager);
                         break;
+                    case 2:
+                        viewAllStudents(manager);
+                        break;
                    
