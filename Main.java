@@ -26,4 +26,5 @@ public class Main {
             scanner.nextLine(); 
             
             try {
-                
+                switch (choice) {
+                   
