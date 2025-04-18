@@ -27,4 +27,7 @@ public class Main {
             
             try {
                 switch (choice) {
+                   case 1:
+                        addStudent(scanner, manager);
+                        break;
                    
