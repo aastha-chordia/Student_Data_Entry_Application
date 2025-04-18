@@ -47,4 +47,7 @@ public class Main {
                         return;
                     default:
                         System.out.println("Invalid choice! Please enter 1-6.");
-               
+                }
+            } catch (Exception e) {
+                System.out.println("Error: " + e.getMessage());
+           
