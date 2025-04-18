@@ -42,4 +42,7 @@ public class Main {
                     case 5:
                         deleteStudent(scanner, manager);
                         break;
-                    
+                    case 6:
+                        System.out.println("Exiting application...");
+                        return;
+                   
