@@ -12,4 +12,6 @@ public class Main {
         StudentManager manager = new StudentManager();
         
         System.out.println("Student Data Entry System");
-       
+        
+        while (true) {
+           
