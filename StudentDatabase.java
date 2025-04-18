@@ -10,4 +10,7 @@ public class StudentDatabase {
                  throw new DuplicatePRNException("Student with PRN already exists.");
             }
             studentList.add(student);
+        }
+        public List<Student> getAllStudents() {
+        return studentList;
     }
