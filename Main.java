@@ -43,6 +43,8 @@ public class Main {
                         deleteStudent(scanner, manager);
                         break;
                     case 6:
-                        System.out.println("Exiting application...");
+                        System.out.println("Exit!!");
                         return;
-                   
+                    default:
+                        System.out.println("Invalid choice! Please enter 1-6.");
+               
