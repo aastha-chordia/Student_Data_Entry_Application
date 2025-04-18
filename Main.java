@@ -21,5 +21,7 @@ public class Main {
             System.out.println("4. Update Student");
             System.out.println("5. Delete Student");
             System.out.println("6. Exit");
+            System.out.print("Enter your choice (1-6): ");
+            int choice = scanner.nextInt();
+            scanner.nextLine(); 
             
-           
