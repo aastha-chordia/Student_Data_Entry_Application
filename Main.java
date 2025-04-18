@@ -39,4 +39,7 @@ public class Main {
                     case 4:
                         updateStudent(scanner, manager);
                         break;
+                    case 5:
+                        deleteStudent(scanner, manager);
+                        break;
                     
