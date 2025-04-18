@@ -33,4 +33,7 @@ public class Main {
                     case 2:
                         viewAllStudents(manager);
                         break;
+                    case 3:
+                        searchStudent(scanner, manager);
+                        break;
                    
