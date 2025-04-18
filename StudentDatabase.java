@@ -9,3 +9,5 @@ public class StudentDatabase {
             if (s.getPrn().equals(student.getPrn())) {
                  throw new DuplicatePRNException("Student with PRN already exists.");
             }
+            studentList.add(student);
+    }
