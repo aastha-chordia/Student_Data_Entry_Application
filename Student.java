@@ -15,3 +15,6 @@ public class Student {
     
     public int getAge() { return age; }
     public void setAge(int age) { this.age = age; }
+    
+    public String getPrn() { return prn; }
+    public void setPrn(String prn) { this.prn = prn; }
