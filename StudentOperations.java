@@ -27,6 +27,10 @@ class StudentOperations {
         System.out.println("Student added successfully.");
     }
     
+    public void updateStudent(long prn, String name, String branch, String batch, double cgpa)
+            throws StudentNotFoundException, InvalidCGPAException {
+        Student student = searchByPRN(prn);
+    
     public void displayStudents() {
         for (Student student : students) {
             student.display();
