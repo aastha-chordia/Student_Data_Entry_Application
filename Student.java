@@ -1,5 +1,4 @@
 // Student.java
-// Student.java
 
 class Student {
   private String name;
