@@ -17,3 +17,6 @@ class StudentOperations {
             if (searchByPRN(student.getPRN()) != null) {
                 throw new DuplicatePRNException("PRN already exists!");
             }
+        catch (StudentNotFoundException e) {
+            // Student does not exist – this is expected. Do nothing.
+        }
