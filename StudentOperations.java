@@ -1,4 +1,4 @@
-// StudentDatabase.java
+// StudentOperations.java
 import java.util.*;
 
 import exceptions.DuplicatePRNException;
