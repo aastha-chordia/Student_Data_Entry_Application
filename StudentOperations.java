@@ -20,3 +20,6 @@ class StudentOperations {
         catch (StudentNotFoundException e) {
             // Student does not exist – this is expected. Do nothing.
         }
+        if (student.getCGPA() < 0.0 || student.getCGPA() > 10.0) {
+            throw new InvalidCGPAException("Invalid CGPA entered! Must be between 0.0 and 10.0.");
+        }
