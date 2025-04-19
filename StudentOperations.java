@@ -13,3 +13,7 @@ class StudentOperations {
     }
     public void addStudents(Student student)
             throws DuplicatePRNException, InvalidCGPAException {
+        try {
+            if (searchByPRN(student.getPRN()) != null) {
+                throw new DuplicatePRNException("PRN already exists!");
+            }
