@@ -39,3 +39,5 @@ class StudentOperations {
                 return student;
             }
         }
+         throw new StudentNotFoundException("Student with PRN " + prn + " not found.");
+    }
