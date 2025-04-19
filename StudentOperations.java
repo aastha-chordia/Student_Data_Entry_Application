@@ -68,3 +68,14 @@ class StudentOperations {
         student.setCGPA(cgpa);
         System.out.println("Student details updated.");
     }
+
+    public boolean deleteStudent(long prn) throws StudentNotFoundException {
+        Student student = searchByPRN(prn);
+        if (student != null) {
+            students.remove(student);
+            System.out.println("Student removed successfully.");
+            return true;
+        }
+        throw new StudentNotFoundException("Cannot delete: Student with PRN " + prn + " not found.");
+    }
+}
