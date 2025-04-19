@@ -11,3 +11,5 @@ class StudentOperations {
    public StudentOperations() {
         this.students = new ArrayList<>();
     }
+    public void addStudents(Student student)
+            throws DuplicatePRNException, InvalidCGPAException {
