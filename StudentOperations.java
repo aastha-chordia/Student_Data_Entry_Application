@@ -23,3 +23,6 @@ class StudentOperations {
         if (student.getCGPA() < 0.0 || student.getCGPA() > 10.0) {
             throw new InvalidCGPAException("Invalid CGPA entered! Must be between 0.0 and 10.0.");
         }
+        students.add(student);
+        System.out.println("Student added successfully.");
+    }
