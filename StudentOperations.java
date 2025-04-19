@@ -49,4 +49,9 @@ class StudentOperations {
         }
          return null;
     }
-
+    public Student searchByPosition(int position) throws InvalidPositionException {
+        if (position < 0 || position >= students.size()) {
+            throw new InvalidPositionException("Position out of range.");
+        }
+        return students.get(position);
+    }
